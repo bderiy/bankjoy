@@ -1,5 +1,7 @@
 describe('template spec', () => {
-  it('passes', () => {
-    cy.visit('https://example.cypress.io')
+  it('Observations by series - recent weeks', () => {
+    cy.apiObservationsBySeries('CADUSD', 10).then((response) => {
+      cy.log(response);
+    })
   })
 })

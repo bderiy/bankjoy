@@ -23,3 +23,9 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+
+//This command performs API GET requests to Observations by series endpoint
+Cypress.Commands.add('apiObservationsBySeries', (seriesNames, weeks) => {
+    Cypress.log({ displayName: 'API Observations By Series' })
+    cy.api('GET', `/valet/observations/FX${seriesNames}/json?recent_weeks=${weeks}`);
+});
