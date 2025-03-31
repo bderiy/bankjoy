@@ -1,4 +1,3 @@
-```markdown
 # Canada Bank API test framework demo implementation.
 
 ## Overview
