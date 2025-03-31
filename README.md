@@ -3,7 +3,8 @@
 ## Overview
 
 Hello Bankjoy team and welcome to review this project.  
-The purpose of this project is to demonstate my ability to design and implement an efficient framework for API testing, and show my skills in designing modular and adaptable code for different event test scenarios. Although the number of test cases are limited to one API and it is hard to show a scalabily and adaptability, I did try to implement and introduce a few concepts like a new Command with variable number of additioanl parameters, functions for counting avarage mumber and code generator. With UI test implementation, there would be more option to show modular code implementation, such as Page Object Model.
+The purpose of this project is to demonstate my ability to design and implement an efficient framework for API testing, and show my skills in designing modular and adaptable code for different event test scenarios. Although the number of test cases are limited to one API and it is hard to show a scalabily and adaptability, I did try to implement and introduce a few concepts like a new Command with variable number of additioanl parameters, functions for counting avarage number and code generator. With UI test implementation, there would be more option to show modular code implementation, such as Page Object Model.  
+Also, I would implement .env built-in feature to send the Series into the test through CLI, but it is almost impossible to come up with expected result for validation/assertion.
 
 ## Verifying test results and challenges with obtaining persistent data.
 
