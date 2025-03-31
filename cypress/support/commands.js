@@ -27,6 +27,8 @@
 //const { method } = require("cypress/types/bluebird");
 
 //This command performs API GET requests to Observations by series endpoint
+//It takes 2 mandatory parameters 'seriesNames' and 'weeks(number)', and it takes additional parameters, first two are assigned to 
+// variables startDate and endDate respectfuly.
 Cypress.Commands.add('apiObservationsBySeries', (seriesNames, weeks, ...rest) => {
     let startDate = rest.length > 0 ? rest[0] : 0;
     let endDate = rest.length > 0 ? rest[1] : 0;
